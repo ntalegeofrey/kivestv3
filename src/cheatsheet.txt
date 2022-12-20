@@ -1,0 +1,25 @@
+// styled components without props
+import * as React from 'react';
+import { styled } from '@mui/material/styles';
+
+const MyComponent = styled('div')({
+  color: 'darkslategray',
+  backgroundColor: 'aliceblue',
+  padding: 8,
+  borderRadius: 4,
+});
+
+export default function BasicUsage() {
+  return <MyComponent>Styled div</MyComponent>;
+}
+
+// styled components with props (conditional)
+const ButtonStyled = styled(Button, { shouldForwardProp: (props) => props !== "inactive" })(({ inactive, theme }) => ({
+  backgroundColor: inactive ? theme.palette.primary[100] : theme.palette.primary[500]
+}));
+
+
+// styled components with props 
+const MyStyledButton = styled('button')((props) => ({
+  backgroundColor: props.myBackgroundColor,
+}));
