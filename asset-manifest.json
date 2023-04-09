@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/kivestv3/static/css/main.e6c13ad2.css",
+    "main.js": "/kivestv3/static/js/main.68c77022.js",
+    "static/js/787.be258f2b.chunk.js": "/kivestv3/static/js/787.be258f2b.chunk.js",
+    "static/media/Uploading-rafiki.svg": "/kivestv3/static/media/Uploading-rafiki.f1eb30d974558dc15685d77dca0c547d.svg",
+    "static/media/profile-pic.webp": "/kivestv3/static/media/profile-pic.f749dd3c46a8b0857205.webp",
+    "static/media/kivest-logo.svg": "/kivestv3/static/media/kivest-logo.c592941e37b489b65859ecedf67f0464.svg",
+    "index.html": "/kivestv3/index.html",
+    "static/media/kivest-mini-logo.svg": "/kivestv3/static/media/kivest-mini-logo.0cad6eacaaa07b28f856ce945d4899c4.svg",
+    "main.e6c13ad2.css.map": "/kivestv3/static/css/main.e6c13ad2.css.map",
+    "main.68c77022.js.map": "/kivestv3/static/js/main.68c77022.js.map",
+    "787.be258f2b.chunk.js.map": "/kivestv3/static/js/787.be258f2b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.68c77022.js"
+  ]
+}
